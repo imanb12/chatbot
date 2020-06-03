@@ -1,0 +1,46 @@
+{
+  "region": "us-east-1",
+  "cognito": {
+    "poolId": "us-east-1:0cd403d3-76c0-40d0-9d60-afb02bfcb8ff",
+    "appUserPoolClientId": "",
+    "appUserPoolName": "",
+    "appDomainName": "",
+    "aws_cognito_region": "us-east-1",
+    "region": "us-east-1",
+    "appUserPoolIdentityProvider": ""
+  },
+  "lex": {
+    "botName": "OrderFlowers",
+    "botAlias": "$LATEST",
+    "initialText": "",
+    "initialSpeechInstruction": "",
+    "reInitSessionAttributesOnRestart": false,
+    "region": "us-east-1"
+  },
+  "ui": {
+    "parentOrigin": "",
+    "toolbarTitle": "Order Config",
+    "toolbarLogo": "",
+    "positiveFeedbackIntent": "",
+    "negativeFeedbackIntent": "",
+    "helpIntent": "help",
+    "enableLogin": false,
+    "AllowSuperDangerousHTMLInMessage": true,
+    "shouldDisplayResponseCardTitle": false,
+    "hideInputFieldsForButtonResponse": false,
+    "pushInitialTextOnRestart": false,
+    "directFocusToBotInput": false,
+    "showDialogStateIcon": false
+  },
+  "polly": {
+    "voiceId": "Salli"
+  },
+  "recorder": {
+    "preset": "speech_recognition"
+  },
+  "iframe": {
+    "iframeOrigin": "",
+    "shouldLoadIframeMinimized": false,
+    "iframeSrcPath": "/index.html#/?lexWebUiEmbed=true"
+  }
+}
